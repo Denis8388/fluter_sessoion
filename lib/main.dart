@@ -60,9 +60,14 @@ class _MyHomePageState extends State<MyHomePage> {
   int _counter = 0;
 
   void _incrementCounter() {
-    //1 lesson
-    registered(new_name: "Porshe", new_speed: 5);
 
+    //2 lesson 1 version
+   for(int i = 0; i <=1; i++)
+    {
+      registered(new_name: "Mazda5", new_speed: 5);
+    }
+    //2 lesson 2 version
+      registered2(new_name: "Mazda", new_speed: 5);
 
     setState(() {
       // This call to setState tells the Flutter framework that something has
